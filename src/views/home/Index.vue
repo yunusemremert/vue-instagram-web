@@ -27,9 +27,6 @@
 </template>
 
 <script>
-import TextComp from '@/components/TextComp'
-import IconHome from '../../icons/home.svg'
-
 export default {
   name: 'Home'
 }
