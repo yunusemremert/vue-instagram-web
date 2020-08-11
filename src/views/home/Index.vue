@@ -2,10 +2,6 @@
   <div class="home">
     <div class="timeline">
       <h1>This is an home page</h1>
-      <TextComp>Merhaba Dünya!</TextComp>
-      <TextComp tag="p">Merhaba Dünya!</TextComp>
-      <TextComp tag="b" size="xsmall">Merhaba Dünya!</TextComp>
-      <IconHome width="60" height="60" />
       <p>
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci
         asperiores autem dicta doloremque dolores ea facilis incidunt, inventore
