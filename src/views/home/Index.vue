@@ -2,7 +2,20 @@
   <div class="home">
     <div class="timeline">
       <h1>This is an home page</h1>
-      <Avatar :size="80" />
+
+      <br />
+
+      <br />
+
+      <br />
+
+      <Post />
+
+      <br />
+
+      <br />
+
+      <br />
     </div>
     <div class="sidebar">
       <p>
@@ -16,10 +29,11 @@
 </template>
 
 <script>
-import Avatar from '@/components/Avatar'
+import Post from '@/components/Post'
+
 export default {
   name: 'Home',
-  components: { Avatar }
+  components: { Post }
 }
 </script>
 
