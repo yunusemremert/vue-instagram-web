@@ -1,7 +1,7 @@
 <template>
   <div class="post">
     <!--- header --->
-    <header class="header">
+    <header class="header section">
       <div class="header-author">
         <Avatar :size="40" />
         <div class="header-author-info">
@@ -29,7 +29,7 @@
     </div>
 
     <!--- actions --->
-    <div class="action-buttons">
+    <div class="action-buttons section">
       <button type="button">
         <IconLike />
       </button>
@@ -45,6 +45,10 @@
     </div>
 
     <!--- view count -->
+    <div class="view-count section">
+      <CustomText tag="b">1.345 beğenme</CustomText>
+    </div>
+
     <!--- comment list -->
     <!--- datetime -->
     <!--- comment form -->
@@ -81,12 +85,15 @@ export default {
   border: 1px solid rgb(var(--b6a));
 }
 
+.section {
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
 .header {
   height: 60px;
   display: flex;
   align-items: center;
-  padding-left: 16px;
-  padding-right: 16px;
 
   &-author {
     display: flex;
@@ -106,8 +113,6 @@ export default {
   height: 45px;
   display: flex;
   align-items: center;
-  padding-left: 16px;
-  padding-right: 16px;
 
   button {
     margin-right: 16px;
